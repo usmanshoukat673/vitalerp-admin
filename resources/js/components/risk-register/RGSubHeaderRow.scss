@@ -1,0 +1,32 @@
+.RGSubHeaderRow__body {
+    display: flex;
+    align-items: center;
+    background-color: #8a8a8a;
+    color: white;
+    border-bottom: 1px solid white;
+    font-size: 10px;
+    div {
+        padding: 3px;
+        font-style: italic;
+        text-align: center;
+    }
+    .RGSubHeaderRow__id {
+        width: 60px;
+    }
+    .RGSubHeaderRow__standard,
+    .RGSubHeaderRow__domain,
+    .RGSubHeaderRow__riskowner,
+    .RGSubHeaderRow__severity,
+    .RGSubHeaderRow__probabaility,
+    .RGSubHeaderRow__riskrating {
+        flex: 0.1;
+    }
+    .RGSubHeaderRow__riskcontrol,
+    .RGSubHeaderRow__question {
+        flex: 0.2;
+    }
+}
+.TableCell__sub {
+    padding: 4px !important;
+    font-size: 10px !important;
+}

@@ -1,0 +1,23 @@
+.__items__list{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: hidden;
+    min-height: calc(100vh - 214px);
+    margin-bottom: 30px;
+}
+.task-link{
+    cursor: pointer;
+}
+
+._task_view_and_name{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 1.35rem;
+    margin-bottom: 0;
+
+    .__active_task{
+        color: $brand-primary;
+    }
+}

@@ -1,0 +1,85 @@
+.file__manager__module {
+    display: flex;
+    .sub__left__menu {
+        width: 260px;
+        background: #fff;
+        min-height: calc(-95px + 100vh);
+        padding: 24px;
+        box-shadow: rgba(67, 90, 111, 0.3) 0px 0px 1px;
+        box-sizing: border-box;
+        z-index: 0;
+        // font
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        color: #435a6f;
+        letter-spacing: -0.05px;
+        -moz-osx-font-smoothing: grayscale;
+        overflow: auto;
+        .sub__settings_box {
+            box-sizing: border-box;
+            div.heading {
+                margin-bottom: 8px;
+                align-items: center;
+                -moz-box-align: center;
+                display: flex;
+                text-transform: uppercase;
+                font-weight: 600;
+                word-spacing: 1.5px;
+                letter-spacing: 0.5px;
+                svg {
+                    margin-right: 5px;
+                }
+            }
+            a {
+                font-size: 14px;
+                margin-bottom: 4px;
+                text-decoration: none;
+                padding-left: 8px;
+                padding-top: 4px;
+                color: rgb(66, 90, 112);
+                height: 32px;
+                margin-right: 0px;
+                margin-left: 0px;
+                border-radius: 3px;
+                letter-spacing: 0px;
+                font-weight: 400;
+                align-items: center;
+                -moz-box-align: center;
+                width: 100%;
+                cursor: pointer;
+                display: block;
+            }
+            a:hover {
+                background: rgb(233, 242, 250);
+                color: rgb(16, 112, 202);
+            }
+            a.active {
+                background: rgb(233, 242, 250);
+                color: rgb(16, 112, 202);
+            }
+            &.second {
+                margin-top: 25px;
+            }
+        }
+    }
+    .settings_wrapper {
+        background: #f7f8fa;
+        width: 100%;
+    }
+}
+
+.__WorkBench{
+    padding: 0px 20px;
+   .main__files{
+       min-height: calc(100vh - 214px);
+
+       .the__card{
+           min-height: 100%;
+
+
+       }
+
+       margin-bottom: 64px;
+   }
+}

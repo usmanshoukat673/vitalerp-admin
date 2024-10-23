@@ -1,0 +1,24 @@
+.__the_list_type {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    position: relative;
+    .__tst {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .deleteButton{
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+
+    .titleField{
+        margin-top: 15px !important;
+    }
+}

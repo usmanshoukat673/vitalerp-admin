@@ -1,0 +1,43 @@
+.gnsettings__mainbd {
+    position: relative;
+    // width: calc(100vw - 438px);
+    // top: 79px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    z-index: 50;
+    background: #fafcff;
+
+    .gnsettings__breadcrum {
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 19px;
+        width: 100%;
+        ._active {
+            cursor: pointer;
+            color: #4f5ad1;
+        }
+    }
+
+    .gnsettings__header {
+        display: flex;
+        justify-content: space-between;
+
+        .__name {
+            font-weight: 500;
+            font-size: 34px;
+            line-height: 51px;
+
+            color: #0e1132;
+        }
+        .__actions {
+            .ui.button {
+                // border-radius: 29px;
+            }
+        }
+    }
+}
+
+.gnsettings__container {
+    margin: 30px 30px 55px 30px;
+}

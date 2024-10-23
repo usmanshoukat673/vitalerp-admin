@@ -1,0 +1,30 @@
+.__subjects{
+    display: flex;
+    background: #fff;
+    margin-bottom: 15px;
+    overflow-x: scroll; 
+    .sb__column{
+        min-width: 200px;
+        .sb__column_heading{
+            font-weight: 400;
+            font-size: 18px;
+            border-bottom: 1px solid #ccc;
+            padding: 10px;
+            cursor: pointer;
+            &:hover{
+                background-color: rgb(216, 216, 216);
+            }
+        }
+        .sb__column_record{
+            border-width: 2px;
+            border-radius: 6px;
+            &:hover{
+                border: 2px solid #000;
+            }
+        }
+        .sb__id_column_record{
+            padding: 13px;
+            border-width: 2px;
+        }
+    }
+}

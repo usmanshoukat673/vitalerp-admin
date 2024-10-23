@@ -1,0 +1,20 @@
+.__Details{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: hidden;
+    min-height: calc(100vh - 214px);
+    margin-bottom: 30px;
+}
+.sub__task__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sub_task__field{
+    .a__sub_task{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

@@ -1,0 +1,29 @@
+.cj__new__folder {
+    display: flex;
+    align-items: flex-end;
+    svg {
+        color: #17c6f6;
+        font-size: 18px;
+    }
+
+    // .trigger {
+    //     position: absolute;
+
+    //     &.right {
+    //         bottom: -12px;
+    //         right: -10px;
+    //     }
+    //     &.left {
+    //         bottom: -12px;
+    //         left: -8px;
+    //     }
+    // }
+
+    .create__input {
+        width: 135px;
+        border: 1px solid #9c9c9c;
+        &.error {
+            border: 1px solid red;
+        }
+    }
+}

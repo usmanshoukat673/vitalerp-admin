@@ -1,0 +1,160 @@
+.compl__parent__container {
+    &.sub__section__open {
+        margin: 0px 0px 55px 15px;
+    }
+    &.sub__section__close {
+        margin: 0px 0px 55px 0px;
+    } // needs to change margine based on sub slide menu status
+    position: relative;
+
+    .page__header {
+        padding: 1px 10px 0px 5px !important;
+        &.open__menu {
+            &.sub__section__open {
+                &.open_documents_menu__close {
+                    width: calc(
+                        100vw - 482px
+                    ); // left hand nav widht + sub left hand width plus overall pading & margin 539
+                }
+                &.open_documents_menu__open {
+                    width: calc(
+                        100vw - 785px
+                    ); // left hand nav widht + sub left hand width plus overall pading & margin 539
+                }
+            }
+            &.sub__section__close {
+                &.open_documents_menu__close {
+                    width: calc(100vw - 221px);
+                    // left hand nav widht + overall pading & margin 539
+                }
+                &.open_documents_menu__open {
+                    width: calc(100vw - 524px);
+                    // left hand nav widht + overall pading & margin 539
+                }
+            }
+        }
+        &.close__menu {
+            &.sub__section__open {
+                &.open_documents_menu__close {
+                    width: calc(100vw - 332px);
+                }
+                &.open_documents_menu__open {
+                    width: calc(100vw - 635px);
+                }
+            }
+            &.sub__section__close {
+                &.open_documents_menu__close {
+                    width: calc(100vw - 71px);
+                }
+                &.open_documents_menu__open {
+                    width: calc(100vw - 374px);
+                }
+            }
+        }
+    }
+
+    .custom__header {
+        margin-top: -1px;
+        min-height: 50px;
+        padding-left: 20px !important;
+    }
+
+    .compl__docs {
+        position: absolute;
+        right: 0;
+        width: 303px;
+        background: #fff;
+        min-height: calc(100vh - 95px);
+        top: 0;
+        box-shadow: rgba(67, 90, 111, 0.3) 0px 0px 1px;
+        box-sizing: border-box;
+        z-index: 0;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        color: #435a6f;
+        letter-spacing: -0.05px;
+        -moz-osx-font-smoothing: grayscale;
+        overflow: auto;
+        height: 100%;
+    }
+    .compl__dashboard {
+        margin: 12px 15px 55px 8px;
+        &.open__menu {
+            &.sub__section__open {
+                &.open_documents_menu__close {
+                    width: calc(100vw - 514px);
+                }
+                &.open_documents_menu__open {
+                    width: calc(100vw - 817px);
+                }
+            }
+            &.sub__section__close {
+                &.open_documents_menu__close {
+                    width: calc(100vw - 235px);
+                }
+                &.open_documents_menu__open {
+                    width: calc(100vw - 538px);
+                }
+            }
+        }
+        &.close__menu {
+            &.sub__section__open {
+                &.open_documents_menu__close {
+                    width: calc(100vw - 362px);
+                }
+                &.open_documents_menu__open {
+                    width: calc(100vw - 665px);
+                }
+            }
+            &.sub__section__close {
+                &.open_documents_menu__close {
+                    width: calc(100vw - 87px);
+                }
+                &.open_documents_menu__open {
+                    width: calc(100vw - 390px);
+                }
+            }
+        }
+
+        .control__item__card {
+            box-shadow: none !important;
+            transition: none !important;
+
+            .control_item {
+                display: flex;
+                justify-content: space-between;
+                .__numbers {
+                    font-weight: 600;
+                }
+                .control__des__icon {
+                    cursor: pointer;
+                    margin-left: 5px;
+                }
+                .cotrol__popover {
+                    p {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        .controls__pagination {
+            display: flex;
+            justify-content: center;
+            margin: 15px 0px 0px 0px;
+        }
+        .integration__item {
+            .content {
+                .app__des__icon {
+                    cursor: pointer;
+                    margin-left: 5px;
+                }
+                .app__popover {
+                    p {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}

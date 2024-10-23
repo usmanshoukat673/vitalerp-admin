@@ -1,0 +1,40 @@
+.ControlNote {
+    display: inline;
+    .note__icon {
+        font-size: 22px;
+        margin-left: 15px;
+        cursor: pointer;
+        color: #828282;
+    }
+}
+.cc_modal_container {
+    .__notes__buttons {
+        display: flex;
+        justify-content: right;
+        margin-top: 20px;
+        .__c_c_button {
+            background: #d9ffef;
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #000000;
+            border-radius: 29px;
+            padding-right: 28px;
+            padding-left: 28px;
+            margin-right: 20px;
+        }
+        .__c_c_button__close {
+            background: #dcf1e8;
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #000000;
+            border-radius: 29px;
+            padding-right: 28px;
+            padding-left: 28px;
+            margin-right: 20px;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+/* CSS for the spreadsheet container */
+.spreadsheet {
+  width: 100%;
+  margin: 0 auto; /* Center the spreadsheet */
+}
+
+/* CSS for individual rows */
+.row {
+}
+
+/* CSS for individual cells */
+.cell {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  min-width: 80px; /* You can adjust the minimum cell width */
+  flex-grow: 1; /* Allow cells to expand within the row */
+}
+
+/* Style for cell hover (optional) */
+.cell:hover {
+  background-color: #f0f0f0; /* Change the background color on hover */
+}
+
+/* Style for selected cell (optional) */
+.cell.selected {
+  background-color: #3498db; /* Change the background color for selected cells */
+  color: #fff; /* Change the text color for selected cells */
+}
+
+.selectable-column {
+  cursor: pointer;
+  user-select: none; /* Disable text selection */
+}
+
+.selected {
+  background-color: #e0e0e0; /* Change the background color for selected columns */
+}

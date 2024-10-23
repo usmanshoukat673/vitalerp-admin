@@ -1,0 +1,110 @@
+.control__name_conainer {
+    padding-left: 80px;
+    margin-left: 0.375rem;
+    display: flex;
+    align-items: center;
+
+    .document_heading{
+        font-size: 15px;
+    }
+}
+
+.control__mappings_conainer {
+    padding-left: 74px;
+    margin-left: 0.375rem;
+}
+
+
+.policy__container {
+    background-color: transparent;
+    margin: 0.375rem;
+    box-sizing: border-box;
+    border-radius: 2px;
+
+    .__document_placeholder {
+        padding-left: 80px;
+        padding-top: 15px;
+
+        .__policy_document {
+            min-height: 800px;
+            background-color: #fff;
+            // border: var(--devsite-page-border, 0);
+            // border-radius: var(--devsite-page-border-radius, 2px);
+            // box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+            padding: 40px;
+            // border-left: 1px solid #cecece !important;
+            // border-right: 1px solid #cecece !important;
+
+            p {
+                color: rgb(32, 33, 36);
+                font-family: Roboto, Helvetica, Arial, sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                margin: 16px 0px;
+                padding: 0px;
+            }
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                color: rgb(32, 33, 36);
+            }
+
+            .__policy_header {
+                color: rgb(32, 33, 36);
+                font-size: 32px;
+                margin-bottom: 24px;
+                letter-spacing: normal;
+            }
+        }
+    }
+
+    .__document__context {
+        margin: 0.375rem;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        .__menus {
+
+            margin-left: 0px;
+            border-left: 5px solid rgb(3, 155, 229);
+            padding-bottom: 0px;
+
+            .__list {
+                list-style: none;
+                li {
+                    color: rgba(0, 0, 0, 0.65);
+                    font-weight: 700;
+                }
+            }
+
+            ul{
+                list-style-type: none;
+                padding: 0;
+                padding-left: 5px;
+            }
+
+            ul ul ul {
+                margin-left: 10px; 
+            }
+
+        }
+    }
+
+    .__document__info{
+        border-left: 5px solid rgb(73, 66, 196);
+        padding-left: 10px;
+    }
+
+    div:last-child {
+        // padding-bottom: 15px;
+    }
+
+    div:first-child {
+        padding-top: 0px;
+    }
+}

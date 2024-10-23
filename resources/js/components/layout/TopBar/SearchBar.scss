@@ -1,0 +1,10 @@
+.cj__search__bar {
+    margin-left: 20px;
+    .cj__search_box {
+        .results {
+            max-height: 85vh;
+            overflow: auto;
+            width: 600px !important;
+        }
+    }
+}

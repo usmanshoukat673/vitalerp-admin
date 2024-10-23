@@ -1,0 +1,30 @@
+.application__image {
+    background: #fff !important;
+}
+.app__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.table_list_item {
+    td {
+        .initials {
+            // border: 1px solid;
+            height: 25px;
+            border-radius: 50%;
+            width: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 15px;
+            color: #ffffff;
+            font-size: 14px;
+            &.odd {
+                background-color: #606060;
+            }
+            &.even {
+                background-color: #363636;
+            }
+        }
+    }
+}

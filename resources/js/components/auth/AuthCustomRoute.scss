@@ -1,0 +1,33 @@
+.AuthCustomRoute {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 30px;
+}
+
+.AuthCustomRoute p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+.AuthCustomRoute button {
+    border: 1px solid #a0dbb3;
+    outline: none;
+    background-color: transparent;
+    color: #a0dbb3;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 13px;
+    width: 88px;
+    height: 32px;
+    border-radius: 5px;
+}
+
+.AuthCustomRoute button:hover {
+    background-color: #a0dbb3;
+    color: #fff;
+}

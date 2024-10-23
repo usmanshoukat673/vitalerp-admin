@@ -1,0 +1,129 @@
+.left__nav {
+    position: fixed;
+    left: 0;
+    top: 75px;
+    height: 100vh;
+    z-index: 999;
+
+    // background: linear-gradient(0deg, #ffffff, #ffffff),
+    //     linear-gradient(180deg, #f2f4f8 0%, #fafcff 100%);
+    // box-shadow: 15px 0px 50px rgba(0, 0, 0, 0.05);
+    background: #313a46;
+
+    &.open__app {
+        width: 220px;
+    }
+    &.close__app {
+        width: 70px;
+    }
+
+    .logo {
+        margin: 15px;
+        img {
+            height: 30px;
+        }
+    }
+    .menus {
+        ul {
+            overflow: hidden;
+            width: auto;
+            height: 100%;
+            position: relative;
+            margin-bottom: 0;
+            padding-left: 0;
+            list-style: none;
+            li {
+                position: relative;
+                display: block;
+                font-size: 14px;
+                color: #0e1132;
+                a {
+                    font-family: 'Nunito', sans-serif;;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 17px;
+                    line-height: 25px;
+                    // color: #0e1132;
+                    color: #8391a2;
+
+                    padding: 14px 20px 14px 25px;
+                    position: relative;
+                    display: block;
+                    cursor: pointer;
+                    text-decoration: none;
+                    background-color: transparent;
+                    &:hover {
+                        // background-color: #4f5ad0;
+                        // color: #fff;
+                        color: #bccee4;
+                    }
+                    &.active {
+                        // background-color: #4f5ad0;
+                        color: #fff;
+                    }
+                    &.root_active {
+                        // background-color: #4f5ad0;
+                        color: #fff;
+                    }
+                    svg {
+                        font-size: 20px;
+                        margin-bottom: 4px;
+                        margin-right: 5px;
+                    }
+                }
+
+                // sub menu
+                ul {
+                    // background: rgba(79, 90, 208, 0.15);
+                    background: #313a46;
+                    overflow: hidden;
+                    width: auto;
+                    height: 100%;
+                    position: relative;
+                    margin-bottom: 0;
+                    padding-left: 0;
+                    list-style: none;
+                    margin-top: 0px;
+                    li {
+                        position: relative;
+                        display: block;
+                        // font-size: 13px;
+                        // color: #676a6c;
+                        a {
+                            &.sb__open {
+                                padding: 8px 20px 8px 52px;
+                                // padding: 8px 20px 8px 25px; // old settings
+                            }
+                            &.sb__close {
+                                padding: 8px 10px 8px 11px;
+                            }
+
+                            // color: #9ea6b9;
+                            color: #8391a2;
+                            position: relative;
+                            display: block;
+                            cursor: pointer;
+                            text-decoration: none;
+                            background-color: transparent;
+                            &:hover {
+                                // background-color: rgba(255, 255, 255, 0);
+                                // color: #0e1132;
+                                color: #bccee4;
+                            }
+                            &.active {
+                                // background-color: rgba(255, 255, 255, 0);
+                                // color: #0e1132;
+                                color: #fff;
+                            }
+                            svg {
+                                font-size: 20px;
+                                margin-bottom: 4px;
+                                margin-right: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.a_custom_drawer {
+    .MuiPaper-root {
+        background-color: #ebeff3 !important;
+
+        ._drawer_box {
+            margin: 0px 12px 12px 12px;
+            max-width: none;
+            background-color: #ffffffcf;
+            border-radius: 4px;
+            box-shadow: 0 1px 1px rgb(0 0 0 / 10%), 0 0 1px rgb(0 0 0 / 10%);
+            padding: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            p{
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+                display: block;
+            }
+        }
+    }
+}

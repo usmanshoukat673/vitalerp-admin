@@ -1,0 +1,138 @@
+.__coorz__verify__org {
+    background: #fafcff;
+    padding-top: 30px;
+    padding-left: 30px;
+    .__coorz__header {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0e1132;
+    }
+    .__coorz__sub__header {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 30px;
+        margin-bottom: 30px;
+        .__coorz__sub__header__left {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 34px;
+            line-height: 51px;
+            color: #0e1132;
+        }
+        .__coorz__sub__header__right {
+            .__coorz__cust__progress__label {
+                font-size: 15px;
+                line-height: 22px;
+                text-align: right;
+                color: #0e1132;
+                font-style: normal;
+                margin-bottom: 8px;
+            }
+            .__coorz__cust__progress {
+                background: rgba(74, 195, 193, 0.25);
+                border-radius: 14px;
+                width: 172px;
+                .__current__progress {
+                    background: #4ac3c1;
+                    border-radius: 14px;
+                    height: 10px;
+                }
+            }
+        }
+    }
+    .__coorz__setup__steps {
+        display: flex;
+        justify-content: space-between;
+        .__coorz__setup__step {
+        }
+        .step_1 {
+            flex: 0.2;
+            background: #fafcff;
+            .__ss__header {
+                height: 45px;
+            }
+            .__ss__body {
+                .step__inactive {
+                    font-size: 17px;
+                    line-height: 25px;
+                    color: #0e1132;
+                    opacity: 0.3;
+                    margin: 8px 0px;
+                    svg {
+                        font-size: 17px;
+                        line-height: 25px;
+                    }
+                }
+                .step__active {
+                    font-size: 17px;
+                    line-height: 25px;
+                    margin: 8px 0px;
+                    font-weight: 600;
+                    color: #4f5ad0;
+                    svg {
+                        font-size: 17px;
+                        line-height: 25px;
+                    }
+                }
+            }
+        }
+        .active__step {
+            flex: 0.3;
+            .__ss__header {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 23px;
+                line-height: 34px;
+                color: #0e1132;
+                height: 45px;
+            }
+            .__ss__body {
+                background: #fff;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                height: 580px;
+                padding: 30px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .__ss__question__proceed {
+                    height: 49px;
+                    background: #4ac3c1;
+                    border-radius: 10px;
+                    color: #ffffff;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 24px;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+        .step__half_blank {
+            flex: 0.1;
+            .__ss__header {
+                height: 45px;
+            }
+            .__ss__body {
+                background: #e5e6f8;
+                opacity: 0.5;
+                height: 580px;
+            }
+        }
+        .step__full__blank {
+            flex: 0.3;
+            .__ss__header {
+                height: 45px;
+            }
+            .__ss__body {
+                background: #e5e6f8;
+                opacity: 0.5;
+                height: 580px;
+            }
+        }
+    }
+}

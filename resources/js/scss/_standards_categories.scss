@@ -1,0 +1,90 @@
+.cc__breadcrum {
+    background: rgb(242 243 251);
+    padding: 20px 30px;
+    position: fixed;
+    top: 79px;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 5%);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 5%);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 5%);
+    z-index: 3;
+    .breadcrumb_item {
+        cursor: pointer;
+        font-size: 13px;
+        line-height: 19px;
+        &._active {
+            color: #4f5ad1;
+        }
+    }
+}
+body[data-leftbar-compact-mode="fixed"]:not([data-rightbar-state="now_visible"]) {
+    .cc__breadcrum {
+        width: calc(100vw - $rightdrawer-width);
+        left: 260px;
+    }
+}
+
+body[data-leftbar-compact-mode="fixed"]:not([data-rightbar-state="now_hidden"]) {
+    .cc__breadcrum {
+        width: calc(100vw - $app_container_width_rhd_hidden);
+        left: 260px;
+    }
+}
+
+body[data-leftbar-compact-mode="condensed"]:not([data-rightbar-state="now_visible"]) {
+    .cc__breadcrum {
+        width: calc(100vw - 70px);
+        left: 70px;
+    }
+}
+
+body[data-leftbar-compact-mode="condensed"]:not([data-rightbar-state="now_hidden"]) {
+    .cc__breadcrum {
+        width: calc(100vw - 345px);
+        left: 70px;
+    }
+}
+
+.compliance__category {
+    margin: 76px 30px 70px 30px;
+
+    .ccsection__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .__heading {
+            font-weight: 500;
+            font-size: 33px;
+            line-height: 49px;
+            color: #0e1132;
+        }
+        .__options {
+            .ui.button {
+                border-radius: 29px;
+                font-weight: 300;
+                font-size: 12px;
+                svg {
+                    font-size: 13px;
+                }
+                &.__active {
+                    background: #000000;
+                    color: #fff;
+                }
+                &.__having_docs {
+                    background: #d7fdd0;
+                }
+            }
+        }
+    }
+
+    .ccsection__controls {
+        background: #ffffff;
+        box-shadow: 0px 2px 42px rgba(0, 0, 0, 0.11);
+        border-radius: 7px;
+        padding: 20px 30px 20px 30px;
+        margin-top: 20px;
+
+        div:last-of-type.ccsection__control {
+            border-bottom: none !important;
+        }
+    }
+}

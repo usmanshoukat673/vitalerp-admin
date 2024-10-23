@@ -1,0 +1,24 @@
+.board__projects{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+    h5{
+        margin: 0 !important;
+    }
+}
+.__board__projects__dd{
+    margin-left: 20px;
+}
+.on_its_way{
+    border-top: 5px solid #0acf97;
+}
+.on_track{
+    border-top: 5px solid #f6993f;
+}
+.overdue{
+    border-top: 5px solid #fa5c7c;
+}
+.not_found{
+    border-top: 5px solid #fff;
+}

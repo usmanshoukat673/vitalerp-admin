@@ -1,0 +1,29 @@
+.RGHeaderRow__body {
+    display: flex;
+    align-items: center;
+    background-color: #8a8a8a;
+    color: white;
+    border-bottom: 1px solid white;
+    div {
+        padding: 5px;
+        font-weight: 600;
+    }
+    .RGHeaderRow__id {
+        width: 60px;
+    }
+    .RGHeaderRow__standard,
+    .RGHeaderRow__domain,
+    .RGHeaderRow__riskowner,
+    .RGHeaderRow__severity,
+    .RGHeaderRow__probabaility,
+    .RGHeaderRow__riskrating {
+        flex: 0.1;
+    }
+
+    .RGHeaderRow__riskcontrol {
+        flex: 0.2;
+    }
+    .RGHeaderRow__question {
+        flex: 0.2;
+    }
+}

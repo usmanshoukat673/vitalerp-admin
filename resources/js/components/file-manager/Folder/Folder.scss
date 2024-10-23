@@ -1,0 +1,48 @@
+.cj__folder {
+    display: flex;
+    align-items: flex-end;
+    svg {
+        color: #17c6f6;
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+    .cj__folder__name {
+        margin-left: 5px;
+        span {
+            cursor: pointer;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            width: 320px;
+        }
+    }
+
+    .cj__folder__sub__menu {
+        .folder__meta {
+            padding-left: 17px !important;
+            padding-right: 15px !important;
+        }
+    }
+
+    // .trigger {
+    //     position: absolute;
+
+    //     &.right {
+    //         bottom: -12px;
+    //         right: -8px;
+    //     }
+    //     &.left {
+    //         bottom: -12px;
+    //         left: 0px;
+    //     }
+    // }
+
+    .create__input {
+        width: 135px;
+        border: 1px solid #9c9c9c;
+        &.error {
+            border: 1px solid red;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.profile__row {
+    margin: 0;
+    .profile__column {
+        padding: 0;
+    }
+    .profile__menu {
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: #eee;
+
+            li {
+                float: left;
+                a {
+                    display: block;
+                    background: #eee;
+                    padding: 14px 20px 14px 25px;
+                    color: #555;
+
+                    &.active {
+                        background: #f9f9f9;
+                        color: #17c6f6;
+                    }
+                    &:hover {
+                        color: #17c6f6;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,93 @@
+.sectonowner__modal {
+    background: #ffffff !important;
+    box-shadow: 0px 2px 42px rgba(0, 0, 0, 0.11) !important;
+    border-radius: 29px !important;
+    .sectonowner_modal_container {
+        padding-left: 3em !important;
+        padding-right: 3em !important;
+        padding-bottom: 3em !important;
+
+        .sss__header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .__ss__number {
+                font-weight: 600;
+                font-size: 29px;
+                line-height: 43px;
+                color: #000000;
+            }
+            .__ss__close {
+                svg {
+                    color: #000000;
+                    font-size: 21px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .__ss__main__section {
+            margin-top: 18px;
+            .__owner__form {
+                display: flex;
+                justify-content: space-evenly;
+                .form__column {
+                    width: 46%;
+                }
+
+                .fields {
+                    margin-bottom: 30px;
+                }
+                .field {
+                    margin-bottom: 30px;
+                    label {
+                        font-weight: 300;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #000000;
+                    }
+                    .input {
+                        input {
+                            // background: rgba(161, 193, 222, 0.3);
+                            border-radius: 7px;
+                            // border-color: transparent;
+                        }
+                    }
+                    .dropdown {
+                        // background: rgba(161, 193, 222, 0.3);
+                        border-radius: 7px;
+                        // border-color: transparent;
+                    }
+                }
+                .owner__selection {
+                    margin-bottom: 8px;
+                    .field {
+                        margin-bottom: 08px;
+                    }
+                }
+                .tp__button {
+                    cursor: pointer;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #4ac3c1;
+                    margin-top: -24px;
+                    display: block;
+                    margin-bottom: 30px;
+                }
+            }
+            .__ap__action {
+                background: #4ac3c1;
+                border-radius: 10px;
+                height: 49px;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+                color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+            }
+        }
+    }
+}

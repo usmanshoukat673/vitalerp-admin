@@ -1,0 +1,44 @@
+.teams__row {
+    background: #f9f9f9;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 80vh;
+}
+
+.listing_row {
+    .list__item {
+        display: flex !important;
+        align-items: center !important;
+        .initials {
+            // border: 1px solid;
+            height: 40px;
+            border-radius: 50%;
+            width: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 12px;
+            color: #ffffff;
+            cursor: pointer;
+            font-size: 17px;
+            &.odd {
+                background-color: #606060;
+            }
+            &.even {
+                background-color: #363636;
+            }
+        }
+
+        .content {
+            .header {
+                cursor: pointer;
+            }
+        }
+    }
+    .activity__container {
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+    }
+}

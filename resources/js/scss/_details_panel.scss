@@ -1,0 +1,119 @@
+.new_compliance {
+    margin: 61px 0px 55px 0px;
+}
+
+.action_bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    border-bottom: 1px solid #ccc;
+
+    .__names {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.__information_table {
+    ._row {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #ccc;
+        padding: 2px 0px;
+
+        ._left_c {
+            width: 25%;
+            font-weight: 600;
+        }
+
+        ._right_c {}
+    }
+}
+
+.cs_breadcrum {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    width: 100%;
+    padding: 10px 0px;
+    border-bottom: 1px solid #ccc;
+
+    ._active {
+        cursor: pointer;
+        color: #4f5ad1;
+    }
+}
+
+.__fullscreen__header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+
+    .icon {
+        svg {
+            font-size: 40px;
+            color: #2722a1;
+        }
+
+        img {
+            height: 40px;
+        }
+    }
+    ._center{
+        margin-left: 10px;
+    }
+
+    .right {
+        display: flex;
+        align-items: center;
+    }
+
+    div:nth-child(3) {
+        margin-left: auto;
+    }
+
+    .active_user {
+        color: #98a6ad;
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+
+        .initials {}
+
+        .__the_initials {
+            margin-right: 5px !important;
+        }
+
+        .user {
+            .account-user-name {
+                font-weight: 600;
+            }
+
+            .account-position {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+
+.__add_record__header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+
+    ._center{
+        margin-left: 10px;
+    }
+
+    div:nth-child(3) {
+        margin-left: auto;
+    }
+
+}

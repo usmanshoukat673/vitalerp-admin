@@ -1,0 +1,121 @@
+.store__module {
+    display: flex;
+    width: 100%;
+}
+
+.leftanav__filters__container {
+    display: block;
+    margin-top: 7px;
+    margin-right: 10px;
+    margin-right: 7px;
+}
+
+.__options__box {
+    width: 270px;
+
+    .filter__results__wrapper {
+        .filtered__results {
+            margin-bottom: 13px;
+            padding: 10px 10px 10px 18px;
+            border-style: none;
+            border-width: 1px;
+            border-color: #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+
+            .__title__block {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+
+                .__title {
+                    margin-left: 0;
+                    color: #5a5a5a;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 1.5rem;
+                    font-family: inherit;
+                    margin-top: 9px;
+                    margin-bottom: 0.625rem;
+                }
+
+                .clear-all {
+                    border: none;
+                    color: #006bbd;
+                    cursor: pointer;
+                    margin: 2px 0 0 5px;
+                    text-decoration: none;
+                    background-color: inherit;
+                }
+            }
+        }
+
+        .message-bar {
+            font-size: .875rem;
+            line-height: 1.25rem;
+            font-weight: 400;
+            background-color: #ffffc9;
+            color: #000;
+            padding: 0.5rem 0.875rem 0.5rem 1rem;
+            position: relative;
+            margin-bottom: 13px;
+        }
+
+        .__selected__items__wrapper{
+
+        }
+    }
+
+    .__option__box {
+        margin: 0 0 13px;
+        padding: 0 6px 16px 9px;
+        border-style: none;
+        border-width: 1px;
+        border-color: #ccc;
+        border-radius: 5px;
+        background-color: #f3f3f3;
+    }
+
+    .__FilterType {
+        margin-bottom: 12px;
+        background-color: #f3f3f3;
+        .MuiAccordionSummary-content{
+            margin: 0px !important;
+        }
+
+        div {
+            box-shadow: none;
+        }
+    }
+}
+
+.store_wrapper {
+    background: #f7f8fa;
+    width: 100%;
+
+    .page__header {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        .heading {
+            font-size: 24px;
+            font-weight: 200;
+            padding: 10px 0px;
+            margin-right: 50px;
+        }
+    }
+
+    .__slider_wrapper {
+        padding: 8px;
+
+        .slider__item {
+            padding: 15px;
+        }
+    }
+
+    .__products__wrapper {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}

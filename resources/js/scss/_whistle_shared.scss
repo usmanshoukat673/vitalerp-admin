@@ -1,0 +1,85 @@
+.__secure_header__wrapper {
+    position: relative;
+    z-index: 105;
+    width: 100%;
+    margin: auto;
+    background: transparent;
+    background: #2c2875;
+
+    .__header {
+        max-width: 1350px;
+        margin: 0 auto;
+        line-height: 20px;
+        padding: 24px;
+        text-align: center;
+    }
+}
+
+.__secure_whistleblower {
+    margin-top: 74px;
+    max-width: 1318px;
+    width: 100%;
+    padding-bottom: 0px;
+    margin: 0 auto;
+}
+
+.__whistle_container {
+    width: 800px;
+    padding-top: 20px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+    p,
+    li {
+        font-size: 18px;
+        line-height: 1.55;
+    }
+
+    .__report_sent_box {
+        width: 400px;
+        border: 1px solid #2bc4f5;
+        background: #a6e9ff;
+        border-radius: 8px;
+        padding: 20px;
+        .__text{
+            font-size: 14px;  
+            font-weight: 400;
+            text-align: center;
+        }
+        .__code_box{
+            background-color: #fff;
+            font-size: 18px;
+            font-weight: 500;
+            padding: 10px 15px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        margin-bottom: 20px;
+    }
+}
+
+.__report_view{
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+    div{
+        margin-bottom: 15px;
+    }
+}
+
+.__secure_footer__wrraper{
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background: #ccc;
+    color: #000;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    img{
+        margin-left: 10px;
+    }
+}

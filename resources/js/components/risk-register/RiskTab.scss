@@ -1,0 +1,37 @@
+.RiskTab__container {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 1px solid whitesmoke;
+    .RiskTab__sections {
+        display: flex;
+        .RiskTab__sections__menu {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px;
+            padding: 15px;
+            min-width: 150px;
+            cursor: pointer;
+            color: gray;
+            border-width: 0 !important;
+            font-size: 14px;
+
+            &:hover {
+                background-color: whitesmoke;
+                border-width: 3px !important;
+                border-bottom: 3px solid #17c6f6;
+            }
+
+            &.active {
+                background-color: whitesmoke;
+                border-width: 3px !important;
+                border-bottom: 3px solid #17c6f6;
+                color: black;
+            }
+        }
+    }
+    .risktab__actions {
+        padding-top: 8px;
+        padding-right: 20px;
+    }
+}

@@ -1,0 +1,27 @@
+.deviceLocationFixer {
+    .deviceLocationFixer__action__buttons {
+        display: flex;
+        button {
+            margin-right: 15px !important;
+        }
+    }
+    .deviceLocationFixer__dropdown {
+        margin-bottom: 14px;
+    }
+    .deviceLocationFixer__content {
+        overflow: auto;
+        min-height: 35vh;
+    }
+    .deviceLocationFixer__header {
+        display: flex !important;
+        align-items: center !important;
+        font-size: 17px !important;
+        font-weight: 400 !important;
+        .deviceLocationFixer__heading__icon {
+            color: rgb(204, 204, 28);
+            color: #e20e51;
+            font-size: 22px;
+            margin-right: 6px;
+        }
+    }
+}

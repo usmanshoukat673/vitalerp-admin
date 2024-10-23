@@ -1,0 +1,20 @@
+.mfa_off_box {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    div {
+        margin-bottom: 0;
+        svg {
+            font-size: 18px;
+            margin-top: -3px;
+            color: #f00c0c;
+        }
+    }
+}
+.mfa__modal {
+    height: auto;
+    top: auto;
+    left: auto;
+    bottom: auto;
+    right: auto;
+}

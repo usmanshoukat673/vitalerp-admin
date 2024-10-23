@@ -1,0 +1,21 @@
+.search__results {
+    padding-bottom: 48px;
+    margin: 15px 15px 0px 15px;
+    .the__results {
+        h3 {
+            margin-top: 5px !important;
+        }
+        h4 {
+            color: #17c6f6;
+            font-size: 18px;
+            font-weight: 200;
+            margin: 0;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+    }
+    .search__feed {
+        padding-left: 15px;
+    }
+}

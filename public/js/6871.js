@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[6871],{76871:(e,n,t)=>{t.r(n),t.d(n,{default:()=>r});var l=t(67294);const r=function(){return l.createElement(l.Fragment,null,l.createElement("h1",null,"TermsCondictions"))}}}]);

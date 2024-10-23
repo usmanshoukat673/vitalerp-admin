@@ -1,0 +1,170 @@
+.compliance__section {
+    margin: 155px 30px 55px 30px;
+
+    .cc_overview__panal {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 40px;
+        .__piechart {
+        }
+        .__pienotes {
+            div {
+                font-size: 16px;
+                line-height: 18px;
+                color: #000000;
+                margin-bottom: 10px;
+            }
+            .__count {
+                height: 40px;
+                width: 40px;
+                border-radius: 100px;
+                font-size: 19px;
+                line-height: 28px;
+                text-align: center;
+                color: #ffffff;
+                display: inline-block;
+                padding-top: 6px;
+            }
+            .n__applicable {
+                background: #0e1132;
+            }
+            .n__not_applicable {
+                background: #af524b;
+            }
+            .n__fullyimpl {
+                background: #a0dbb3;
+            }
+            .n__partimpl {
+                background: #4ac3c1;
+            }
+            .n__requiredatten {
+                background: #e73353;
+            }
+        }
+        .__totaldocs {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .__numberof_docs {
+                border: 5px solid rgba(79, 90, 208, 0.2);
+                box-sizing: border-box;
+                height: 165px;
+                width: 165px;
+                text-align: center;
+                color: #000000;
+                font-size: 26px;
+                line-height: 23px;
+                border-radius: 100px;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+        }
+    }
+
+    .categories__panal {
+        margin-top: 40px;
+        .cp__header__section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .cp__header {
+                font-weight: 500;
+                font-size: 25px;
+                line-height: 37px;
+                color: #0e1132;
+            }
+            .cp__actions {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                flex: 0.5;
+                div {
+                    font-size: 17px;
+                    line-height: 25px;
+                    color: #000000;
+                    padding-bottom: 10px;
+                    &.active {
+                        border-bottom: 2px solid #a0dbb3;
+                    }
+                }
+            }
+            .cp__options {
+                .ui.button {
+                    border-radius: 29px;
+                    svg {
+                        font-size: 13px;
+                    }
+                    &.__active {
+                        background: #000000;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+
+        .cp__main__section {
+            margin-top: 20px;
+
+            .cp__the__sections {
+                margin-right: 30px;
+                flex: 1;
+            }
+
+            display: flex;
+            justify-content: space-around;
+
+            .__maincategory {
+                border-radius: 7px;
+                background: rgba(230, 232, 235, 0.5);
+                padding: 30px 35px 30px 40px;
+                min-height: 230px;
+                cursor: pointer;
+                .__mcHeader {
+                    font-weight: 500;
+                    font-size: 22px;
+                    line-height: 33px;
+                    color: #000000;
+                    margin-bottom: 15px;
+                }
+                .__mcSubSections {
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #000000;
+                    // cursor: pointer;
+                    // &:hover {
+                    //     text-decoration-line: underline;
+                    // }
+                }
+
+                .__the__control {
+                    font-style: italic;
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 21px;
+                    color: #000000;
+                    margin-bottom: 10px;
+                }
+
+                &.active {
+                    background: #ffffff;
+                    box-shadow: 0px 2px 42px rgba(0, 0, 0, 0.11);
+                }
+                &:hover {
+                    background: #ffffff;
+                    box-shadow: 0px 2px 42px rgba(0, 0, 0, 0.11);
+                }
+            }
+        }
+    }
+}
+
+.MuiList-root.MuiMenu-list.MuiList-padding {
+    .__cm__heading {
+        text-align: center !important;
+        font-size: 18px !important;
+        padding-bottom: 10px !important;
+    }
+}

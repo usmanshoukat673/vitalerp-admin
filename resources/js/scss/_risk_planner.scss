@@ -1,0 +1,19 @@
+.RiskRegister__body {
+    margin-bottom: 39px;
+    display: flex;
+    height: 100vh;
+    .RiskRegister__rows {
+        flex: 1;
+        overflow: auto;
+    }
+    .RiskRegister__table {
+        min-width: 650px;
+    }
+}
+.RiskRegister__container {
+    margin: 0px 15px 55px 15px;
+}
+.RiskRegister__tabMenus {
+    margin: 15px 15px 0px 15px;
+    background: white;
+}

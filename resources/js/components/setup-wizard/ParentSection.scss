@@ -1,0 +1,43 @@
+.__the__section__page {
+    display: flex;
+    flex-direction: column;
+    .__the__parent_section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .__psname {
+            font-size: 20px;
+            line-height: 15px;
+        }
+    }
+    .__the__child_section {
+        font-size: 18px;
+        line-height: 15px;
+        margin-top: 18px;
+        padding-left: 30px;
+    }
+
+    .__respo__users {
+        flex: 0.9;
+        display: flex;
+        margin-top: 18px;
+        .__theUser {
+            color: #fff;
+            font-size: 18px;
+            cursor: pointer;
+            margin-right: 5px;
+            border-radius: 50%;
+            height: 30px;
+            width: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .__theTeam {
+            background: #4f59d0;
+        }
+        .__theAcUser {
+            background: #52bd94;
+        }
+    }
+}

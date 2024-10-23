@@ -1,0 +1,228 @@
+.auth,
+.not__found {
+    width: 100%;
+    min-height: 100vh !important;
+    background: #fff;
+    color: #000;
+}
+
+.auth_logo {
+    display: flex;
+    justify-content: center;
+}
+
+.auth_logo img {
+    width: 260px;
+    height: 45px;
+}
+
+/* Auth Pages */
+.auth_container .auth_header {
+    position: fixed;
+    right: 0;
+}
+
+.auth_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.auth_page .auth_page_content {
+    width: 460px;
+    padding: 0 20px;
+}
+
+.auth_page .auth_page_content .content h1 {
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    text-align: center;
+}
+
+.auth_page .auth_page_content .content p {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 5px;
+    text-align: center;
+}
+
+.forget_password p {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: right;
+}
+
+.custom_input input {
+    height: 50px !important;
+    width: 100% !important;
+    border: none !important;
+    outline: none !important;
+    padding-left: 20px !important;
+    font-weight: normal !important;
+    font-size: 20px !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+    border-radius: 7px !important;
+}
+.custom_input input:focus {
+    border-radius: 7px !important;
+    background: transparent !important;
+    border: 3px solid #4ac3c1 !important;
+}
+
+.custom_btn button {
+    width: 100%;
+
+    height: 42px;
+    border: none;
+    background: rgba(126, 210, 185, 0.37);
+    border-radius: 500px;
+    color: #272b4f;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.custom_btn button:hover {
+    background: linear-gradient(349.9deg, #4ac3c1 -32.34%, #a0dbb3 71.38%);
+}
+
+.hr_line {
+    margin: 35px 0;
+    width: 100%;
+    border-top: 3px solid rgba(67, 100, 129, 0.35);
+}
+
+/* Media Queries */
+@media screen and (max-width: 992px) {
+    .logo img {
+        width: 220px;
+        height: 46px;
+    }
+    .auth_page .auth_page_content .content h1 {
+        font-weight: 400;
+        font-size: 26px;
+    }
+
+    .auth_page .auth_page_content .content p {
+        font-weight: 300;
+        font-size: 16px;
+    }
+
+    .auth_page .auth_page_content {
+        width: 360px;
+    }
+}
+
+
+.custom__checkbox {
+    .ui.toggle.checkbox {
+        label {
+            color: #fff !important;
+        }
+    }
+    .ui.toggle.checkbox .box:before,
+    .ui.toggle.checkbox label:before {
+        background: #5f5f5f;
+    }
+    .ui.toggle.checkbox .box:after,
+    .ui.toggle.checkbox label:after {
+        color: #fff !important;
+    }
+}
+
+
+.new__auth_v2 {
+    background-image: url('../../images/login_page.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #000;
+    padding: 20px 60px;
+    min-height: calc(100vh - 75.3px); // 64 + 110.8 = 160 
+
+    .build__input{
+        input, select, .MuiOutlinedInput-input{
+            font-size: 18px;
+        }
+    }
+
+    .build__label{
+        .MuiFormControlLabel-label{
+            font-size: 18px;
+        }
+    }
+
+    .checkbox__selected{
+        .MuiFormControlLabel-label{
+            color: #1876d2
+        }
+    }
+
+    .__asset__example__dd{
+        .ui.label, .ui.active.label{
+            border: 1px solid #1876d2;
+            color: #1876d2;
+            background-color: #fff;
+            box-shadow: none;
+            padding: 10px;
+            &:hover{
+                background-color: rgba(25, 118, 210, 0.04);
+            }
+        }
+    }
+    
+    ._auth__right, ._auth__right > h4{
+        color: #fff;
+
+        p {
+            a{
+                color: #fff;
+            }
+        }
+    }
+}
+
+.new__authoticated__onboarding {
+    background-image: url('../../images/login_page.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #000;
+    padding: 20px 60px;
+    min-height: calc(100vh - 63.8px);  
+
+    .build__input{
+        input, select, .MuiOutlinedInput-input{
+            font-size: 18px;
+        }
+    }
+
+    .build__label{
+        .MuiFormControlLabel-label{
+            font-size: 18px;
+        }
+    }
+
+    .checkbox__selected{
+        .MuiFormControlLabel-label{
+            color: #1876d2
+        }
+    }
+
+    .__asset__example__dd{
+        .ui.label, .ui.active.label{
+            border: 1px solid #1876d2;
+            color: #1876d2;
+            background-color: #fff;
+            box-shadow: none;
+            padding: 10px;
+            &:hover{
+                background-color: rgba(25, 118, 210, 0.04);
+            }
+        }
+    }
+}

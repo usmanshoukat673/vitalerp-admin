@@ -1,0 +1,16 @@
+.section__like__button {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 20px;
+    bottom: 23px;
+    padding-left: 10px;
+    .__the__thumb {
+        font-size: 25px;
+        cursor: pointer;
+    }
+}
+
+.ui.popup > .header {
+    justify-content: flex-start !important;
+}

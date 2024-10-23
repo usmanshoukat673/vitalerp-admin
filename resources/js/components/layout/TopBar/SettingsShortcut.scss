@@ -1,0 +1,25 @@
+.setting__sht__header {
+    padding: 20px 10px 0px 18px;
+    position: relative;
+    font: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    h3 {
+        color: #0b657e;
+        font-size: 19px;
+        font-weight: 100;
+    }
+    .close__button {
+        margin-top: -11px;
+    }
+}
+.mfa__container {
+    position: relative;
+    font: 'Nunito', sans-serif;
+    h4 {
+        color: #0b657e;
+        font-size: 16px;
+        font-weight: 100;
+        padding: 16px;
+    }
+}

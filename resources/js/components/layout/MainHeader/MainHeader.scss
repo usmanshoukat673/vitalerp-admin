@@ -1,0 +1,167 @@
+.mainheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // background: #0e1132;
+    background: #313a46;
+    color: #fff;
+    padding: 15px 30px 15px 40px;
+
+    position: fixed;
+    z-index: 3;
+    width: 100vw;
+    top: 0;
+
+    .mainheader__left__section {
+        display: flex;
+        justify-items: center;
+        img {
+            height: 28px;
+        }
+    }
+    .mainheader__mid__section {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex: 0.8;
+
+        .ui.icon.input {
+            min-width: 30vw;
+        }
+
+        div {
+            a {
+                font-size: 16px;
+                letter-spacing: 1px;
+                color: #fff;
+                &:hover {
+                    color: #fff;
+                }
+                &.active {
+                    color: #17c6f6;
+                }
+            }
+        }
+    }
+    .mainheader__mid__right {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 16px;
+
+        .__account_setup {
+            min-width: 12vw;
+            position: relative;
+            margin-right: 30px;
+            cursor: pointer;
+            .__progress__button__conatiner {
+                border: 2px solid #4ac3c1;
+                background: rgba(74, 195, 193, 0.5);
+                box-sizing: border-box;
+                border-radius: 7px;
+                .__progress__ {
+                    background: rgba(74, 195, 193, 0.5);
+                    height: 45px;
+                    .__progress__label {
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 17px;
+                        line-height: 25px;
+                        color: #ffffff;
+                        position: absolute;
+                        background: transparent;
+                        top: 11px;
+                        left: 8%;
+                    }
+                }
+            }
+        }
+
+        .user__settings__group {
+            // border: 2px solid #4f5ad0;
+            box-sizing: border-box;
+            border-radius: 7px;
+            padding: 5px 15px 5px 12px;
+            min-width: 12vw;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            .__gearicon {
+                color: #4f5ad0;
+                font-size: 22px;
+                cursor: pointer;
+                margin-right: 12px;
+                border-radius: 50%;
+                background: #fff;
+                height: 35px;
+                width: 35px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .__userinfo {
+                .__username {
+                    color: #fafcff;
+                    font-family: 'Nunito', sans-serif;;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+                .__companyname {
+                    font-family: 'Nunito', sans-serif;;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 13px;
+                    line-height: 15px;
+                    color: #848ce9;
+                }
+            }
+        }
+    }
+
+    /* Smartphones (portrait and landscape) ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        padding: 15px 10px 15px 15px;
+        .mainheader__mid__section {
+            flex: 0.9;
+        }
+    }
+
+    /* iPads (portrait) ----------- */
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+        padding: 15px 10px 15px 10px;
+        .mainheader__mid__section {
+            flex: 0.9;
+
+            div {
+                a {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+        padding: 15px 30px 15px 40px;
+        .mainheader__mid__section {
+            flex: 0.8;
+        }
+    }
+
+    /* Desktops and laptops ----------- */
+    @media only screen and (min-width: 1224px) {
+        padding: 15px 30px 15px 40px;
+        .mainheader__mid__section {
+            flex: 0.5;
+        }
+    }
+
+    /* Large screens ----------- */
+    @media only screen and (min-width: 1824px) {
+        padding: 15px 30px 15px 40px;
+        .mainheader__mid__section {
+            flex: 0.4;
+        }
+    }
+}

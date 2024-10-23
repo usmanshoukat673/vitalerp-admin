@@ -1,0 +1,32 @@
+.rpt__log {
+    display: flex;
+    align-items: center;
+    padding-bottom: 8px;
+    .__title {
+        flex: 4;
+    }
+    .__created_at {
+        flex: 2;
+    }
+    .__manifest {
+        flex: 3;
+        cursor: pointer;
+        &:hover {
+            color: #224f64;
+            text-decoration: underline;
+        }
+    }
+    .__download {
+        .__generate_button {
+            background: #d9ffef;
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #000000;
+            border-radius: 29px;
+            padding-right: 28px;
+            padding-left: 28px;
+        }
+    }
+}

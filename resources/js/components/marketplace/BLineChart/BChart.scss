@@ -1,0 +1,26 @@
+.axisLaeyr .xAxis .domain,
+.axisLaeyr .xAxis .tick > line {
+    display: none;
+}
+.axisLaeyr .yAxis .domain,
+.axisLaeyr .yAxis .tick > line {
+    display: none;
+}
+.axisLaeyr .yGrid .domain {
+    display: none;
+}
+.axisLaeyr .yGrid .tick > line {
+    stroke-dasharray: 3;
+}
+.plotLayer .valueLine {
+    fill: none;
+    stroke-width: 1.5;
+    stroke: #00f;
+}
+
+.button button {
+    display: block;
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+}

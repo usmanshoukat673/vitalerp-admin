@@ -1,0 +1,33 @@
+.PolicyPanelBanner {
+    background: #fff;
+    padding-top: 16px;
+    // padding-bottom: 16px;
+
+
+    .pp__intro {
+        margin: 0 auto;
+        max-width: 1296px;
+
+
+        section {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.__alert {
+    color: rgb(30, 70, 32);
+    background-color: rgb(237, 247, 237);
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    font-weight: 400;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 16px;
+    p{
+        margin: 0;
+    }
+}

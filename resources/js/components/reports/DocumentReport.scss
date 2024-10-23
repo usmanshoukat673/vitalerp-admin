@@ -1,0 +1,79 @@
+.semtic__modal.document__report__modal {
+    background: #ffffff !important;
+    box-shadow: 0px 2px 42px rgba(0, 0, 0, 0.11) !important;
+    border-radius: 29px !important;
+
+    .cc_modal_container {
+        padding-left: 3em !important;
+        padding-right: 3em !important;
+        padding-bottom: 3em !important;
+
+        &.custom__container {
+            min-height: calc(100vh - 340px);
+        }
+
+        .cccc__header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 20px;
+            .__c__number {
+                font-weight: 600;
+                font-size: 29px;
+                line-height: 43px;
+                color: #000000;
+            }
+            .__c__close {
+                svg {
+                    color: #000000;
+                    font-size: 21px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .__c__name {
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 24px;
+            color: #000000;
+            padding-top: 10px;
+        }
+
+        .__c__description {
+            font-style: italic;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 21px;
+            color: rgba(0, 0, 0, 0.5);
+            padding-top: 10px;
+        }
+
+        .__c__divider {
+            margin-top: 20px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            margin-bottom: 15px;
+        }
+    }
+
+    .modal__actions {
+        background: #fff;
+        .__actions {
+            display: flex;
+            align-items: center;
+            justify-content: right;
+
+            .__generate_button {
+                background: #d9ffef;
+                font-size: 15px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                color: #000000;
+                border-radius: 29px;
+                padding-right: 28px;
+                padding-left: 28px;
+            }
+        }
+    }
+}

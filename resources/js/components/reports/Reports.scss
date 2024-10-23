@@ -1,0 +1,44 @@
+.reports__mainbd {
+    position: fixed;
+    width: calc(100vw - 220px);
+    top: 79px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    z-index: 50;
+    background: #fafcff;
+
+    .reports__breadcrum {
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 19px;
+        width: 100%;
+        ._active {
+            cursor: pointer;
+            color: #4f5ad1;
+        }
+    }
+
+    .rpt__header {
+        display: flex;
+        justify-content: space-between;
+
+        .__name {
+            font-weight: 500;
+            font-size: 34px;
+            line-height: 51px;
+
+            color: #0e1132;
+        }
+        .__actions {
+            .ui.button {
+                border-radius: 29px;
+            }
+        }
+    }
+}
+
+.reports__types {
+    margin: 125px 30px 55px 30px;
+    display: flex;
+}

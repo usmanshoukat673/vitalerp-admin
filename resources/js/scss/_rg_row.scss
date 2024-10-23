@@ -1,0 +1,45 @@
+.RGRow__body {
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    border-bottom: 1px solid white;
+    div {
+        padding: 5px;
+    }
+    .RGRow__id {
+        width: 60px;
+    }
+    .RGRow__standard,
+    .RGRow__domain,
+    .RGRow__riskowner,
+    .RGRow__severity,
+    .RGRow__probabaility,
+    .RGRow__riskrating {
+        flex: 0.1;
+    }
+    .RGRow__riskcontrol,
+    .RGRow__question {
+        flex: 0.2;
+    }
+}
+.risk__low {
+    background-color: #06e606;
+    color: green !important;
+    text-align: center !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
+.risk__mid {
+    background-color: #fbd1a7;
+    color: #ff8000 !important;
+    text-align: center !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
+.rish__high {
+    color: red;
+    background-color: #f75252;
+    text-align: center !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}

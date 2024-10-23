@@ -1,0 +1,17 @@
+.file_input {
+    border: 1px solid #bfbfbf;
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+
+    &.error {
+        border: 1px solid red;
+        padding: 5px;
+        width: 100%;
+        border-radius: 5px;
+    }
+}
+
+.form-error-messsage {
+    margin-top: 12px;
+}

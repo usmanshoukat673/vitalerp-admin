@@ -1,0 +1,118 @@
+.working__control_column {
+    padding-top: 8px !important;
+    padding-bottom: 0 !important;
+    .working__control {
+        padding: 0 !important;
+        .working__control__header {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid whitesmoke;
+            padding: 1em 1em 0 1em;
+            .sub__properties {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                form {
+                    margin: 0 !important;
+                }
+
+                &.maturity__level {
+                    font-size: 11px;
+                }
+            }
+            .control__name {
+                max-width: 50%;
+                padding-bottom: 5px;
+            }
+        }
+        .working__control__description {
+            padding: 25px;
+            border-bottom: 1px solid whitesmoke;
+            background-color: #fbfbfb;
+        }
+        .working__control__mid {
+            display: flex;
+            border-bottom: 1px solid whitesmoke;
+            font-size: 13px;
+            padding-top: 3px;
+            div {
+                padding-left: 10px;
+                color: gray;
+                &.selected {
+                    color: rgba(0, 0, 0, 0.87);
+                    border-width: 3px !important;
+                    border-bottom: 3px solid #2d85d0;
+                }
+                span {
+                    cursor: pointer;
+                }
+                .MuiIconButton-root {
+                    padding: 5px !important;
+                }
+            }
+        }
+        .working__control__mid__section {
+            border-bottom: 1px solid whitesmoke;
+            padding: 15px 10px 10px 10px;
+            .sd__documents {
+                margin-bottom: 10px;
+
+                .sd__document {
+                    display: flex;
+                    font-size: 14px;
+                    cursor: pointer;
+                    .doc__name {
+                        margin-left: 5px;
+                    }
+                }
+
+                .MuiPaper-elevation1 {
+                    box-shadow: none !important;
+                }
+
+                .column {
+                    padding-bottom: 0 !important;
+                    padding-top: 5px !important;
+                    .sd__document {
+                        display: flex;
+                        font-size: 14px;
+                        cursor: pointer;
+                        .doc__name {
+                            margin-left: 5px;
+                        }
+                    }
+                }
+            }
+        }
+        form {
+            margin-bottom: 1em;
+        }
+        .artifact__buttons {
+            text-transform: capitalize !important;
+            margin-right: 15px !important;
+        }
+        .control__tags {
+            padding: 1em 1em;
+            .MuiChip-root {
+                margin-right: 5px !important;
+            }
+        }
+        .mapped__control {
+            color: rgb(48, 47, 47);
+        }
+        .integration__item {
+            font-size: 12px !important;
+            .content {
+                .app__des__icon {
+                    cursor: pointer;
+                    margin-left: 5px;
+                }
+                .app__popover {
+                    p {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}

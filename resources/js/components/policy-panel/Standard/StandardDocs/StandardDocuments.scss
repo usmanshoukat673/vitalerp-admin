@@ -1,0 +1,19 @@
+.standard_documents__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.__standard_documents__list {
+    display: flex;
+
+    .__Document {
+        flex: 1;
+    }
+
+    // .__Document:not(:first-child):not(:last-child) {
+    .__Document:not(:last-child) {
+        margin-right: 20px;
+        /* No margin for elements other than the first one */
+    }
+}

@@ -1,0 +1,184 @@
+.select_country_code {
+    .ui.selection.dropdown {
+        width: 100% !important;
+        background: rgba(161, 193, 222, 0.25);
+        border-radius: 7px;
+        color: #fff;
+        border: none;
+        outline: none;
+        height: 50px;
+        margin: 5px 0;
+        font-weight: normal;
+        font-size: 18px;
+    }
+}
+
+.mfa__modal {
+    height: auto;
+    top: auto;
+    left: auto;
+    bottom: auto;
+    right: auto;
+    .mfa__modal__content {
+        h3 {
+            color: #fff;
+        }
+    }
+}
+
+.organization_container .organization_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.organization_page .organization_page_content {
+    width: 460px;
+    padding: 0 20px;
+}
+
+.organization_page .organization_page_content .content h1 {
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.organization_page .organization_page_content .content p {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 5px;
+    text-align: center;
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+/* Select Organization */
+.choose_organization {
+    // display: flex;
+    // justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    // flex-wrap: wrap;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.__organization{
+    display: flex;
+    align-items: center;
+    padding: 10px 30px 10px 5px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 7px;
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 29px;
+    cursor: pointer;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    position: relative;
+
+    .select_check {
+        opacity: 0.2;
+        margin-right: 10px;
+    }
+
+    &:hover .select_check {
+        opacity: 1;
+        color: #ffffff;
+    }
+    &:hover {
+        background: #517de4;
+        border: 1px solid #517de4;
+        color: #fff;
+    }
+
+    &.active {
+        background: #517de4;
+        border: 1px solid #517de4;
+        color: #fff;
+    }
+    &.active .select_check {
+        opacity: 1;
+        color: #ffffff;
+    }
+}
+
+.add_new_organization {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+.add_new_organization span {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.add_new_organization .add_organization_icon {
+    width: 30px;
+    height: 30px;
+    color: #4ac3c1;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 992px) {
+    .auth_logo img {
+        width: 220px;
+        height: 46px;
+    }
+
+    .choose_organization .select_organization {
+        width: 160px;
+    }
+
+    .organization_page .organization_page_content {
+        width: 360px;
+    }
+
+    .organization_page .organization_page_content .content h1 {
+        font-weight: 400;
+        font-size: 26px;
+    }
+
+    .organization_page .organization_page_content .content p {
+        font-weight: 300;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .choose_organization {
+        justify-content: center;
+    }
+
+    .choose_organization .select_organization {
+        width: 240px;
+        margin-top: 15px;
+    }
+
+    .add_new_organization_modal {
+        width: 350px;
+    }
+    .add_new_organization_modal .heading h1 {
+        font-size: 22px;
+    }
+    .add_new_organization_modal .heading p {
+        font-size: 14px;
+    }
+    .modal_input input {
+        height: 50px;
+        font-size: 14px;
+    }
+    .add_organization_btn button {
+        width: 100%;
+    }
+}
